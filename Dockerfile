@@ -1,1 +1,1 @@
-From hub.hamdocker.ir/library/nginx
+From hub.hamdocker.ir/library/nginx:1.19
