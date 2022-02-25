@@ -1,2 +1,1 @@
-FROM ubuntu
-RUN sleep 36000
+FROM nginx
