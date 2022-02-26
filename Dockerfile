@@ -1,1 +1,1 @@
-FROM hub.hamdocker.ir/nginx
+FROM nginx
