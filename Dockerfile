@@ -1,4 +1,4 @@
-FROM hub.hamdocker.ir/library/nginx as build
+FROM hub.hamdocker.ir/library/nginx as BUILD
 
 from python
-copy --from=build /etc/nginx /etc/
+copy --from=BUILD /etc/nginx /etc/
