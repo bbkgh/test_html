@@ -1,4 +1,4 @@
-FROM nginx as BUILD
+FROM nginx as build
 
 from python
-copy --from=BUILD /etc/nginx /etc/
+copy --from=build /etc/nginx /etc/
