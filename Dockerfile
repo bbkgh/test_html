@@ -1,3 +1,3 @@
-FROM nginx as  build
+FROM nginx
 copy test test
-copy --from=build /etc/nginx /etc/
+copy  /etc/nginx /etc/
